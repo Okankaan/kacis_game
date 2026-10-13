@@ -215,19 +215,19 @@ const Scenes = (() => {
       Z2: ['Zeliha sokakta', 'Kırmızı ceketi, leopar fularıyla evden çıktı. Şehir ona bir şeyler fırlatıyor: güvercinler, drone’lar, koniler… Buluşmaya yetişmeli!'],
       O1: ['Şimdi sıra Okan’da', 'Okan da hazırlanıyor ama dolabı dağıldı. Kot yığınları, gömlekler, ütü… Kot ceketini bulabilmesi için kaçmalı!'],
       O2: ['Okan yola çıkıyor', 'Gün batarken Zeliha’ya doğru koşuyor. Kaykaylar, martılar ve yangın muslukları yolunu kesiyor.'],
-      BAR: ['Irish Bar’da buluşma', 'Sonunda kavuştular! İkisi el ele, ikisinin de koca gözlüğü var. Bira ve shot bardaklarından birlikte kaçın. Tek kontrol, iki kişi!'],
+      BAR: ['Irish Bar’da buluşma', 'Sonunda kavuştular! İkisi el ele, ikisinin de koca gözlüğü var. Bardaklardan birlikte kaçın. Tek kontrol, iki kişi!'],
     },
     O: {
       O1: ['Okan geç kaldı!', 'Zeliha ile buluşmaya geç kalıyor ve evdeki kıyafetler peşinde. Kot, çorap, ütü… 15 tanesinden kaçıp kapıdan çıkmalı!'],
       O2: ['Okan Zeliha’ya koşuyor', 'Kot ceketi sırtında, gün batımında sokaklarda koşuyor. Yoldaki tehlikelerden kaçıp buluşma yerine ulaşmalı.'],
       Z1: ['Şimdi sıra Zeliha’da', 'Okan yola çıkarken Zeliha da hazırlanıyor. Ama makyaj masası isyan etti: rujlar, parfümler, fırçalar üstüne uçuyor! 15 nesneden kaç!'],
       Z2: ['Zeliha buluşmaya gidiyor', 'Kırmızı ceketi ve leopar fularıyla sokağa çıktı. Güvercinler, drone’lar, koniler… Irish Bar’a yetişmeli!'],
-      BAR: ['Zeliha bekliyordu', 'Zeliha bardaki masada gülümsüyor! Okan yanına kavuştu, el ele tutuştular. İkisinin de koca gözlüğü var. Bira ve shot’lardan birlikte kaçın!'],
+      BAR: ['Zeliha bekliyordu', 'Zeliha bardaki masada gülümsüyor! Okan yanına kavuştu, el ele tutuştular. İkisinin de koca gözlüğü var. bardaklardan birlikte kaçın!'],
     },
   };
   const ending = {
     Z: ['Dünya Turu Tamam!', 'Zeliha önce kendini, sonra Okan’ı bulup Irish Bar’da kavuştu. El ele, şerefe!'],
-    O: ['Buluşma Tamam!', 'Okan geç kalmadı, Zeliha’ya el ele şerefe dedi. Yeni bölümler için hazır ol!'],
+    O: ['Buluşma Tamam!', 'Okan geç kalmadı, Zeliha’ya. El ele şerefe dedi. Yeni bölümler için hazır ol!'],
   };
 
   return { W, H, G, defs, obstacles, bgs, story, ending, setT: v => { T = v; }, paths: { Z: ['Z1', 'Z2', 'O1', 'O2', 'BAR'], O: ['O1', 'O2', 'Z1', 'Z2', 'BAR'] }, shamrock, hash };
